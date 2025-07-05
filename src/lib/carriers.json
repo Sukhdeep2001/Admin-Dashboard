@@ -1,0 +1,42 @@
+[
+  {
+    "id": "carrier_1",
+    "name": "UPS",
+    "apiKey": "UPS_API_12345",
+    "enabled": true,
+    "supportedZones": ["US", "CA"],
+    "trackingUrl": "https://www.ups.com/track"
+  },
+  {
+    "id": "carrier_2",
+    "name": "FedEx",
+    "apiKey": "FEDEX_API_67890",
+    "enabled": true,
+    "supportedZones": ["US", "EU"],
+    "trackingUrl": "https://www.fedex.com/fedextrack"
+  },
+  {
+    "id": "carrier_3",
+    "name": "DHL",
+    "apiKey": "DHL_API_ABC123",
+    "enabled": false,
+    "supportedZones": ["EU", "AS"],
+    "trackingUrl": "https://www.dhl.com/en/express/tracking.html"
+  },
+  {
+    "id": "carrier_4",
+    "name": "India Post",
+    "apiKey": "INDPOST_API_XYZ",
+    "enabled": true,
+    "supportedZones": ["IN"],
+    "trackingUrl": "https://www.indiapost.gov.in"
+  },
+  {
+    "id": "carrier_5",
+    "name": "Shiprocket",
+    "apiKey": "SHIPROCKET_9988",
+    "enabled": true,
+    "supportedZones": ["IN"],
+    "trackingUrl": "https://tracking.shiprocket.in"
+  }
+]

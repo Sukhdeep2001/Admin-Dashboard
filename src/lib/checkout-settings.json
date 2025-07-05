@@ -1,0 +1,37 @@
+{
+  "title": "Testing-Nextjs-website-ecommerce configuration",
+  "status": "Live",
+  "addedOn": "2025-07-02T05:58:00-04:00",
+  "contactMethod": "phone_or_email", 
+  "showOrderTrackingLink": true,
+  "requireLogin": false,
+
+  "customerInfo": {
+    "fullName": "require_full_name",
+    "companyName": "optional",
+    "addressLine2": "recommended",
+    "shippingPhone": "required"
+  },
+
+  "marketing": {
+    "enableEmail": true,
+    "enableSMS": true
+  },
+
+  "tipping": {
+    "enabled": true
+  },
+
+  "abandonedCheckout": {
+    "enabled": true,
+    "sendTo": "anyone",
+    "sendAfter": "10_hours"
+  },
+
+  "language": "english",
+
+  "advanced": {
+    "addToCartLimit": true,
+    "checkoutRulesEnabled": false
+  }
+}

@@ -1,0 +1,67 @@
+[
+    {
+        "label": "Back to Admin",
+        "slug": "..",
+        "icon": "arrow-left"
+    },
+    {
+        "label": "Profile",
+        "slug": "profile",
+        "icon": "user"
+    },
+    {
+        "label": "Checkout Configuration",
+        "slug": "checkout-configuration",
+        "icon": "shopping-cart"
+    },
+    {
+        "label": "Users & Permissions",
+        "slug": "user-permissions",
+        "icon": "shield"
+    },
+    {
+        "label": "Plan",
+        "slug": "plan",
+        "icon": "badge"
+    },
+    {
+        "label": "Support",
+        "slug": "support",
+        "icon": "life-buoy"
+    },
+    {
+        "label": "Location",
+        "slug": "location",
+        "icon": "map-pin"
+    },
+    {
+        "label": "Shipping & Delivery",
+        "slug": "shipping",
+        "icon": "truck"
+    },
+    {
+        "label": "Metafields",
+        "slug": "metafields",
+        "icon": "layers"
+    },
+    {
+        "label": "API Keys",
+        "slug": "api-keys",
+        "icon": "key"
+    },
+    {
+        "label": "Store Activity",
+        "slug": "store-activity",
+        "icon": "activity"
+    },
+    {
+        "label": "Product Docs",
+        "slug": "product-docs",
+        "icon": "activity"
+    },
+    {
+        "label": "Policies",
+        "slug": "policy",
+        "icon": "file-text"
+    }
+]

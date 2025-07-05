@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gift-001",
+    "title": "₹500 Gift Card",
+    "price": 500,
+    "image": "/product.png",
+    "description": "Perfect for birthdays or small surprises.",
+    "metaTitle": "Buy ₹500 Gift Card - My Store",
+    "metaDescription": "Give the gift of choice with our ₹500 digital gift card."
+  },
+  {
+    "id": "gift-002",
+    "title": "₹1000 Gift Card",
+    "price": 1000,
+    "image": "/product.png",
+    "description": "Great for celebrations and thank-you gifts.",
+    "metaTitle": "Buy ₹1000 Gift Card - My Store",
+    "metaDescription": "Digital ₹1000 gift card for all occasions."
+  },
+  {
+    "id": "gift-003",
+    "title": "₹1500 Gift Card",
+    "price": 1500,
+    "image": "/product.png",
+    "description": "An ideal pick for your loved ones.",
+    "metaTitle": "₹1500 Gift Card - Gifting Made Easy",
+    "metaDescription": "Instant delivery of ₹1500 value gift card."
+  },
+  {
+    "id": "gift-004",
+    "title": "₹2000 Gift Card",
+    "price": 2000,
+    "image": "/product.png",
+    "description": "The right choice for festive gifting.",
+    "metaTitle": "₹2000 Online Gift Card",
+    "metaDescription": "Easy-to-use ₹2000 gift card for any purchase."
+  },
+  {
+    "id": "gift-005",
+    "title": "₹2500 Gift Card",
+    "price": 2500,
+    "image": "/product.png",
+    "description": "Make someone's day with ₹2500 credit.",
+    "metaTitle": "Buy ₹2500 Gift Card Now",
+    "metaDescription": "Hassle-free digital gift card with ₹2500 balance."
+  },
+  {
+    "id": "gift-006",
+    "title": "₹3000 Gift Card",
+    "price": 3000,
+    "image": "/product.png",
+    "description": "A thoughtful gift for any special moment.",
+    "metaTitle": "₹3000 Gift Card from My Store",
+    "metaDescription": "Send ₹3000 instantly with our gift cards."
+  },
+  {
+    "id": "gift-007",
+    "title": "₹3500 Gift Card",
+    "price": 3500,
+    "image": "/product.png",
+    "description": "Smart gifting made easy and quick.",
+    "metaTitle": "₹3500 E-Gift Card",
+    "metaDescription": "Perfect solution for digital gifting."
+  },
+  {
+    "id": "gift-008",
+    "title": "₹4000 Gift Card",
+    "price": 4000,
+    "image": "/product.png",
+    "description": "Perfect for weddings and big celebrations.",
+    "metaTitle": "₹4000 Gift Card Online",
+    "metaDescription": "Send joy with ₹4000 prepaid value."
+  },
+  {
+    "id": "gift-009",
+    "title": "₹4500 Gift Card",
+    "price": 4500,
+    "image": "/product.png",
+    "description": "Big value for big gestures.",
+    "metaTitle": "Order ₹4500 Digital Gift Card",
+    "metaDescription": "Fast delivery gift card for ₹4500."
+  },
+  {
+    "id": "gift-010",
+    "title": "₹5000 Gift Card",
+    "price": 5000,
+    "image": "/product.png",
+    "description": "Premium gift card for premium gifting.",
+    "metaTitle": "₹5000 Premium Gift Card",
+    "metaDescription": "Best for birthdays, anniversaries, and special events."
+  }
+]

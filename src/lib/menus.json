@@ -1,0 +1,11 @@
+[
+  {
+    "id": "menu-001",
+    "name": "Main Menu",
+    "items": [
+      { "label": "Home", "url": "/" },
+      { "label": "Shop", "url": "/shop" },
+      { "label": "Contact", "url": "/contact" }
+    ]
+  }
+]

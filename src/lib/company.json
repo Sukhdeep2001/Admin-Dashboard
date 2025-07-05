@@ -1,0 +1,30 @@
+[
+    {
+      "id": "com-001",
+      "name": "Tech Solutions Ltd",
+      "status": "Approved",
+      "location": "Bangalore",
+      "contact": "Nikhil Verma",
+      "orders": 120,
+      "sales": 450000
+    },
+    {
+      "id": "com-002",
+      "name": "UrbanStyle Pvt Ltd",
+      "status": "Not Approved",
+      "location": "Pune",
+      "contact": "Megha Sharma",
+      "orders": 40,
+      "sales": 135000
+    },
+    {
+      "id": "com-003",
+      "name": "InnovateX",
+      "status": "Approved",
+      "location": "Hyderabad",
+      "contact": "Vikram Patel",
+      "orders": 75,
+      "sales": 275000
+    }
+]
+  

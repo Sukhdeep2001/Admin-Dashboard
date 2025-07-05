@@ -1,0 +1,208 @@
+[
+    {
+      "name": "Sessions by location",
+      "category": "Acquisition",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Sessions by referrer",
+      "category": "Acquisition",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Sessions by social referrer",
+      "category": "Acquisition",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Sessions over time",
+      "category": "Acquisition",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Visitors over time",
+      "category": "Acquisition",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Visitors right now",
+      "category": "Acquisition",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Bounce rate over time",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Checkout conversion rate over time",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Conversion rate breakdown",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Conversion rate over time",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Customer behavior",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Product recommendation conversions over time",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Product recommendations with low engagement",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Search conversions over time",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Searches by search query",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Searches with no clicks",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Searches with no results",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Sessions by device type",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Sessions by landing page",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Shop Campaign ROAS",
+      "category": "Behavior",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Customer cohort analysis",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Customers by location",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "New customer sales over time",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "New customers over time",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "New vs returning customers",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "One-time customers",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Predicted spend tiers",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Returning customer rate over time",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Returning customers",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "RFM customer analysis",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "RFM customer list",
+      "category": "Customers",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Cost of goods sold by order",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Discounts by order",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Finance Summary",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Gross payments from Shopify Payments",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Gross profit breakdown",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Gross profit by order",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Gross sales by order",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Net payments by gateway",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Net payments by method",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    },
+    {
+      "name": "Net payments by order",
+      "category": "Finances",
+      "createdBy": "Admin.ai"
+    }
+  ]
+  

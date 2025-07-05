@@ -1,0 +1,94 @@
+[
+    {
+      "id": "basic",
+      "title": "Basic Plan",
+      "monthlyPrice": "$29",
+      "yearlyPrice": "$299",
+      "subscriberCount": "44",
+      "description": "Perfect for freelancers and small teams getting started.",
+      "buttonText": "Buy Now",
+      "features": [
+        { "icon": "✅", "text": "Core Admin Dashboard" },
+        { "icon": "✅", "text": "Content Management API" },
+        { "icon": "✅", "text": "Basic SEO Tools" },
+        { "icon": "✅", "text": "Image & Media Upload" },
+        { "icon": "✅", "text": "Authentication (Local)" },
+        { "icon": "✅", "text": "Developer API Access" },
+        { "icon": "❌", "text": "Custom Domain Management" },
+        { "icon": "❌", "text": "Role-Based Access Control" },
+        { "icon": "❌", "text": "Subscription Billing Tools" },
+        { "icon": "❌", "text": "Analytics Dashboard" },
+        { "icon": "❌", "text": "Automated Backups" },
+        { "icon": "❌", "text": "Priority Support" }
+      ]
+    },
+    {
+      "id": "standard",
+      "title": "Standard Plan",
+      "monthlyPrice": "$109",
+      "yearlyPrice": "$1099",
+      "subscriberCount": "34",
+      "pricePeriod": "/month",
+      "description": "Ideal for growing businesses needing more control.",
+      "buttonText": "Buy Now",
+      "isPopular": true,
+      "features": [
+        { "icon": "✅", "text": "Everything in Basic" },
+        { "icon": "✅", "text": "Custom Domain Management" },
+        { "icon": "✅", "text": "Basic Analytics" },
+        { "icon": "✅", "text": "Role-Based Access Control" },
+        { "icon": "✅", "text": "Manual Order Management" },
+        { "icon": "✅", "text": "Inventory Tracking" },
+        { "icon": "✅", "text": "SEO Metadata + JSON-LD" },
+        { "icon": "✅", "text": "Product & Collection APIs" },
+        { "icon": "❌", "text": "Advanced Subscription System" },
+        { "icon": "❌", "text": "Multi-Store Support" },
+        { "icon": "❌", "text": "Detailed Reporting Tools" },
+        { "icon": "❌", "text": "Priority Support" }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced Plan",
+      "monthlyPrice": "$199",
+      "yearlyPrice": "$1999",
+      "subscriberCount": "25",
+      "pricePeriod": "/month",
+      "description": "Best for agencies or large businesses using headless stack.",
+      "buttonText": "Buy Now",
+      "isPopular": true,
+      "features": [
+        { "icon": "✅", "text": "Everything in Standard" },
+        { "icon": "✅", "text": "Advanced Subscription Billing" },
+        { "icon": "✅", "text": "Abandoned Cart System" },
+        { "icon": "✅", "text": "Email Notifications & Hooks" },
+        { "icon": "✅", "text": "Performance Monitoring" },
+        { "icon": "✅", "text": "Advanced SEO Management" },
+        { "icon": "✅", "text": "Custom Content Types" },
+        { "icon": "✅", "text": "Headless Starter Templates" },
+        { "icon": "❌", "text": "Team Collaboration Tools" },
+        { "icon": "❌", "text": "Multi-Language Support" },
+        { "icon": "❌", "text": "Priority Enterprise Support" }
+      ]
+    },
+    {
+      "id": "enterprise",
+      "title": "Enterprise",
+      "subscriberCount": "15",
+      "description": "Tailored for large-scale organizations and agencies.",
+      "buttonText": "Contact",
+      "features": [
+        { "icon": "✅", "text": "Everything in Advanced" },
+        { "icon": "✅", "text": "Team Collaboration Tools" },
+        { "icon": "✅", "text": "Multi-Language CMS Support" },
+        { "icon": "✅", "text": "Custom API Rate Limits" },
+        { "icon": "✅", "text": "Enterprise User Management" },
+        { "icon": "✅", "text": "Service Level Agreement (SLA)" },
+        { "icon": "✅", "text": "Private GitHub Repo Access" },
+        { "icon": "✅", "text": "White-labeling Option" },
+        { "icon": "✅", "text": "Dedicated Account Manager" },
+        { "icon": "✅", "text": "Priority Enterprise Support" }
+      ]
+    }
+  ]
+  

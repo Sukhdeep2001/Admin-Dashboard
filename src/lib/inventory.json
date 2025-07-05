@@ -1,0 +1,112 @@
+[
+  {
+    "id": "prod-001",
+    "title": "Organic Cotton T-Shirt",
+    "sku": "SKU-1001",
+    "barcode": "123456789001",
+    "location": "Warehouse A",
+    "stock": 120,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-002",
+    "title": "Denim Jacket",
+    "sku": "SKU-1002",
+    "barcode": "123456789002",
+    "location": "Warehouse B",
+    "stock": 80,
+    "trackQuantity": true,
+    "status": "Draft",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-003",
+    "title": "Leather Wallet",
+    "sku": "SKU-1003",
+    "barcode": "123456789003",
+    "location": "Warehouse A",
+    "stock": 50,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-004",
+    "title": "Yoga Mat",
+    "sku": "SKU-1004",
+    "barcode": "123456789004",
+    "location": "Warehouse B",
+    "stock": 100,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-005",
+    "title": "Stainless Steel Water Bottle",
+    "sku": "SKU-1005",
+    "barcode": "123456789005",
+    "location": "Warehouse A",
+    "stock": 200,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-006",
+    "title": "Bluetooth Earbuds",
+    "sku": "SKU-1006",
+    "barcode": "123456789006",
+    "location": "Warehouse C",
+    "stock": 40,
+    "trackQuantity": true,
+    "status": "Draft",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-007",
+    "title": "Laptop Stand",
+    "sku": "SKU-1007",
+    "barcode": "123456789007",
+    "location": "Warehouse B",
+    "stock": 75,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-008",
+    "title": "Face Moisturizer",
+    "sku": "SKU-1008",
+    "barcode": "123456789008",
+    "location": "Warehouse A",
+    "stock": 300,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-009",
+    "title": "Ceramic Mug",
+    "sku": "SKU-1009",
+    "barcode": "123456789009",
+    "location": "Warehouse C",
+    "stock": 90,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  },
+  {
+    "id": "prod-010",
+    "title": "Notebook",
+    "sku": "SKU-1010",
+    "barcode": "123456789010",
+    "location": "Warehouse B",
+    "stock": 60,
+    "trackQuantity": true,
+    "status": "Active",
+    "image": "/product.png"
+  }
+]

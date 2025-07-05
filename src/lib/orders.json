@@ -1,0 +1,90 @@
+[
+  {
+    "id": "001",
+    "type": "Placed",
+    "status": "Fulfilled",
+    "customer": "John Doe",
+    "phone": "9876543210",
+    "email": "john@example.com",
+    "source": "Website",
+    "total": 2000,
+    "date": "2025-06-28"
+  },
+  {
+    "id": "002",
+    "type": "Draft",
+    "status": "Pending",
+    "customer": "Jane Smith",
+    "phone": "9876500000",
+    "email": "jane@example.com",
+    "source": "Google Ads",
+    "total": 1500,
+    "date": "2025-06-27"
+  },
+  {
+    "id": "003",
+    "type": "Abandoned",
+    "status": "Unfulfilled",
+    "customer": "Rahul Kumar",
+    "phone": "9999999999",
+    "email": "rahul@example.com",
+    "source": "Facebook",
+    "total": 0,
+    "date": "2025-06-25"
+  },
+  {
+    "id": "004",
+    "type": "Placed",
+    "status": "Fulfilled",
+    "customer": "Simran",
+    "phone": "8888888888",
+    "email": "simran@example.com",
+    "source": "Instagram",
+    "total": 3000,
+    "date": "2025-06-24"
+  },
+  {
+    "id": "005",
+    "type": "Draft",
+    "status": "Fulfilled",
+    "customer": "Mohan",
+    "phone": "7777777777",
+    "email": "mohan@example.com",
+    "source": "Website",
+    "total": 2100,
+    "date": "2025-06-22"
+  },
+  {
+    "id": "006",
+    "type": "Placed",
+    "status": "Pending",
+    "customer": "Amrita",
+    "phone": "9090909090",
+    "email": "amrita@example.com",
+    "source": "Google",
+    "total": 900,
+    "date": "2025-06-20"
+  },
+  {
+    "id": "007",
+    "type": "Abandoned",
+    "status": "Unfulfilled",
+    "customer": "Vikas",
+    "phone": "6666666666",
+    "email": "vikas@example.com",
+    "source": "Website",
+    "total": 0,
+    "date": "2025-06-18"
+  },
+  {
+    "id": "008",
+    "type": "Placed",
+    "status": "Fulfilled",
+    "customer": "Neha",
+    "phone": "5555555555",
+    "email": "neha@example.com",
+    "source": "Referral",
+    "total": 2700,
+    "date": "2025-06-15"
+  }
+]

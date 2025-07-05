@@ -1,0 +1,29 @@
+[
+    {
+      "id": "post-001",
+      "title": "How to Stay Hydrated",
+      "blogId": "blog-001",
+      "author": "Admin",
+      "published": true,
+      "metaTitle": "Hydration Tips for Better Health",
+      "metaDescription": "Learn how much water your body needs and how to build the habit.",
+      "originalDescription": "Hydration is essential for energy and focus. This post covers everything.",
+      "image": "/product.png",
+      "content": [
+        {
+          "type": "text",
+          "value": "Drinking enough water is critical for maintaining body functions..."
+        },
+        {
+          "type": "image",
+          "src": "/product.png",
+          "alt": "Water bottle on desk"
+        },
+        {
+          "type": "text",
+          "value": "Experts suggest drinking at least 2–3 liters daily depending on activity level."
+        }
+      ]
+    }
+]
+  

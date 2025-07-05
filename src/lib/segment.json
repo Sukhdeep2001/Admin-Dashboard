@@ -1,0 +1,33 @@
+[
+    {
+      "id": "seg-001",
+      "segment": "First-time Engage",
+      "name": "Kavita Patel",
+      "email": "kavita@example.com",
+      "subscribed": false,
+      "address": "Ahmedabad, India",
+      "orders": 1,
+      "amountSpent": 1200
+    },
+    {
+      "id": "seg-002",
+      "segment": "High-Value Customer",
+      "name": "Arjun Das",
+      "email": "arjun@example.com",
+      "subscribed": true,
+      "address": "Kolkata, India",
+      "orders": 30,
+      "amountSpent": 95000
+    },
+    {
+      "id": "seg-003",
+      "segment": "Re-engage",
+      "name": "Fatima Khan",
+      "email": "fatima@example.com",
+      "subscribed": false,
+      "address": "Lucknow, India",
+      "orders": 3,
+      "amountSpent": 4700
+    }
+]
+  

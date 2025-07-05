@@ -1,0 +1,25 @@
+{
+  "customers": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "plan": "Pro",
+      "cycle": "Monthly",
+      "method": "Stripe",
+      "amount": "$29",
+      "nextBilling": "2025-07-30",
+      "status": "Active"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "plan": "Basic",
+      "cycle": "Yearly",
+      "method": "PayPal",
+      "amount": "$199",
+      "nextBilling": "2026-01-01",
+      "status": "Active"
+    }
+  ],
+  "totalSpent": 228
+}

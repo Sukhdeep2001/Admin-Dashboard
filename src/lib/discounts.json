@@ -1,0 +1,133 @@
+[
+    {
+      "id": "DISC-1001",
+      "title": "Summer Sale 20% Off",
+      "status": "active",
+      "type": "amount_off_order",
+      "method": "automatic",
+      "combination": {
+        "product": true,
+        "order": true,
+        "shipping": false
+      },
+      "usageCount": 123
+    },
+    {
+      "id": "DISC-1002",
+      "title": "Buy 2 Get 1 Free",
+      "status": "draft",
+      "type": "buyxgety",
+      "method": "manual",
+      "combination": {
+        "product": true,
+        "order": false,
+        "shipping": false
+      },
+      "usageCount": 0
+    },
+    {
+      "id": "DISC-1003",
+      "title": "Flash Weekend Discount",
+      "status": "scheduled",
+      "type": "amount_off_products",
+      "method": "automatic",
+      "combination": {
+        "product": true,
+        "order": false,
+        "shipping": true
+      },
+      "usageCount": 0
+    },
+    {
+      "id": "DISC-1004",
+      "title": "New User ₹100 Off",
+      "status": "active",
+      "type": "amount_off_order",
+      "method": "manual",
+      "combination": {
+        "product": false,
+        "order": true,
+        "shipping": false
+      },
+      "usageCount": 45
+    },
+    {
+      "id": "DISC-1005",
+      "title": "Festive Season - ₹500 Off",
+      "status": "active",
+      "type": "amount_off_products",
+      "method": "automatic",
+      "combination": {
+        "product": true,
+        "order": false,
+        "shipping": false
+      },
+      "usageCount": 200
+    },
+    {
+      "id": "DISC-1006",
+      "title": "Mega Combo Deal",
+      "status": "draft",
+      "type": "buyxgety",
+      "method": "manual",
+      "combination": {
+        "product": true,
+        "order": true,
+        "shipping": true
+      },
+      "usageCount": 0
+    },
+    {
+      "id": "DISC-1007",
+      "title": "Free Shipping Weekend",
+      "status": "active",
+      "type": "amount_off_order",
+      "method": "automatic",
+      "combination": {
+        "product": false,
+        "order": false,
+        "shipping": true
+      },
+      "usageCount": 310
+    },
+    {
+      "id": "DISC-1008",
+      "title": "Clearance ₹250 Off",
+      "status": "scheduled",
+      "type": "amount_off_products",
+      "method": "manual",
+      "combination": {
+        "product": true,
+        "order": false,
+        "shipping": false
+      },
+      "usageCount": 0
+    },
+    {
+      "id": "DISC-1009",
+      "title": "Loyalty Reward",
+      "status": "active",
+      "type": "amount_off_order",
+      "method": "manual",
+      "combination": {
+        "product": true,
+        "order": true,
+        "shipping": true
+      },
+      "usageCount": 157
+    },
+    {
+      "id": "DISC-1010",
+      "title": "BOGO Shoes Deal",
+      "status": "active",
+      "type": "buyxgety",
+      "method": "automatic",
+      "combination": {
+        "product": true,
+        "order": false,
+        "shipping": false
+      },
+      "usageCount": 68
+    }
+]
+  

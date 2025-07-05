@@ -1,0 +1,95 @@
+[
+  {
+    "id": "basic",
+    "title": "Basic Plan",
+    "description": "Ideal for individuals and small businesses.",
+    "monthlyPrice": 29,
+    "yearlyPrice": 290,
+    "features": {
+      "maxUsers": 1,
+      "storageLimit": "5GB",
+      "enableSSO": false,
+      "prioritySupport": false
+    },
+    "limits": {
+      "apiCallsPerMonth": 10000
+    },
+    "trial": {
+      "enabled": true,
+      "durationDays": 14
+    },
+    "visibility": true,
+    "archived": false,
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "standard",
+    "title": "Standard Plan",
+    "description": "Best for growing teams and small businesses.",
+    "monthlyPrice": 99,
+    "yearlyPrice": 999,
+    "features": {
+      "maxUsers": 10,
+      "storageLimit": "50GB",
+      "enableSSO": true,
+      "prioritySupport": false
+    },
+    "limits": {
+      "apiCallsPerMonth": 100000
+    },
+    "trial": {
+      "enabled": true,
+      "durationDays": 30
+    },
+    "visibility": true,
+    "archived": false,
+    "createdAt": "2024-02-01"
+  },
+  {
+      "id": "advanced",
+      "title": "Advanced Plan",
+      "description": "Best for large teams and mid businesses.",
+      "monthlyPrice": 199,
+      "yearlyPrice": 9999,
+      "features": {
+        "maxUsers": 100,
+        "storageLimit": "500GB",
+        "enableSSO": true,
+        "prioritySupport": false
+      },
+      "limits": {
+        "apiCallsPerMonth": 100000
+      },
+      "trial": {
+        "enabled": true,
+        "durationDays": 30
+      },
+      "visibility": true,
+      "archived": false,
+      "createdAt": "2024-02-01"
+  },
+  {
+    "id": "enterprise",
+    "title": "Enterprise Plan",
+    "description": "Custom plan for large businesses and enterprise clients.",
+    "monthlyPrice": 899,
+    "yearlyPrice": 9999,
+    "features": {
+      "maxUsers": "Unlimited",
+      "storageLimit": "Unlimited",
+      "enableSSO": true,
+      "prioritySupport": true
+    },
+    "limits": {
+      "apiCallsPerMonth": "Unlimited"
+    },
+    "trial": {
+      "enabled": false,
+      "durationDays": 0
+    },
+    "visibility": true,
+    "archived": false,
+    "createdAt": "2024-03-15"
+  }
+]
+  

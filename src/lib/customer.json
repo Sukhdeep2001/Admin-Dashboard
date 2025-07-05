@@ -1,0 +1,30 @@
+[
+    {
+      "id": "cus-001",
+      "name": "Ravi Sharma",
+      "email": "ravi@example.com",
+      "subscribed": true,
+      "address": "New Delhi, India",
+      "orders": 12,
+      "amountSpent": 23000
+    },
+    {
+      "id": "cus-002",
+      "name": "Aditi Mehra",
+      "email": "aditi@example.com",
+      "subscribed": false,
+      "address": "Mumbai, India",
+      "orders": 5,
+      "amountSpent": 8500
+    },
+    {
+      "id": "cus-003",
+      "name": "Samarjeet Singh",
+      "email": "samar@example.com",
+      "subscribed": true,
+      "address": "Chandigarh, India",
+      "orders": 8,
+      "amountSpent": 12999
+    }
+]
+  

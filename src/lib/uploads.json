@@ -1,0 +1,19 @@
+[
+    {
+      "id": "upload-001",
+      "name": "header-banner.jpg",
+      "type": "image/jpeg",
+      "url": "/uploads/header-banner.jpg",
+      "sizeMB": 1.2,
+      "uploadedAt": "2024-05-15"
+    },
+    {
+      "id": "upload-002",
+      "name": "promo-video.mp4",
+      "type": "video/mp4",
+      "url": "/uploads/promo-video.mp4",
+      "sizeMB": 18.6,
+      "uploadedAt": "2024-06-01"
+    }
+]
+  

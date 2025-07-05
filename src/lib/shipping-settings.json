@@ -1,0 +1,55 @@
+{
+    "shipping_zones": [
+      {
+        "id": 1,
+        "name": "India",
+        "methods": [
+          {
+            "type": "Standard",
+            "rate": 50,
+            "estimated_delivery": "3-5 business days"
+          },
+          {
+            "type": "Express",
+            "rate": 100,
+            "estimated_delivery": "1-2 business days"
+          }
+        ],
+        "free_shipping_over": 999
+      },
+      {
+        "id": 2,
+        "name": "United States",
+        "methods": [
+          {
+            "type": "Standard",
+            "rate": 10,
+            "estimated_delivery": "5-7 business days"
+          }
+        ],
+        "free_shipping_over": 50
+      }
+    ],
+    "local_delivery": {
+      "enabled": true,
+      "pincode_range": "110000-110099",
+      "delivery_window": "9 AM - 6 PM",
+      "min_order_value": 499
+    },
+    "local_pickup": {
+      "enabled": true,
+      "location_name": "Main Store Pickup",
+      "address": "123 Admin Street, Delhi, India",
+      "instructions": "Come to the pickup counter with your order ID."
+    },
+    "general_settings": {
+      "label_format": "PDF",
+      "default_package_dimensions": {
+        "length": 10,
+        "width": 10,
+        "height": 5
+      },
+      "delivery_estimate_text": "Delivered in 2-5 business days"
+    }
+}
+  

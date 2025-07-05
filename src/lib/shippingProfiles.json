@@ -1,0 +1,41 @@
+[
+  {
+    "id": "profile_1",
+    "name": "Default",
+    "productType": "All",
+    "zones": ["global"],
+    "rates": [
+      { "type": "flat", "amount": 5 },
+      { "type": "free", "threshold": 100 }
+    ]
+  },
+  {
+    "id": "profile_2",
+    "name": "Electronics",
+    "productType": "Electronics",
+    "zones": ["US", "EU"],
+    "rates": [
+      { "type": "flat", "amount": 10 },
+      { "type": "calculated", "carrier": "FedEx" }
+    ]
+  },
+  {
+    "id": "profile_3",
+    "name": "Clothing",
+    "productType": "Apparel",
+    "zones": ["IN", "US"],
+    "rates": [
+      { "type": "flat", "amount": 3 }
+    ]
+  },
+  {
+    "id": "profile_4",
+    "name": "Heavy Goods",
+    "productType": "Furniture",
+    "zones": ["IN"],
+    "rates": [
+      { "type": "calculated", "carrier": "Shiprocket" }
+    ]
+  }
+]
+  

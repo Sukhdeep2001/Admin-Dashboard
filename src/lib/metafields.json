@@ -1,0 +1,17 @@
+[
+  {
+    "id": "meta-001",
+    "namespace": "product",
+    "key": "material",
+    "value": "Cotton",
+    "type": "single_line_text_field"
+  },
+  {
+    "id": "meta-002",
+    "namespace": "collection",
+    "key": "season",
+    "value": "Winter",
+    "type": "single_line_text_field"
+  }
+]
+  

@@ -1,0 +1,51 @@
+{
+  "grossSales": "₹12,340.00",
+  "returningCustomerRate": "12%",
+  "ordersFulfilled": "45",
+  "orders": "50",
+  "salesTimeline": [
+    "200", "230", "180", "250", "270", "310", "290", "340", "280", "360",
+    "400", "420", "390", "450", "480", "460", "500", "520", "540", "600",
+    "580", "620", "610", "630", "640", "650", "670", "700", "680", "690"
+  ],
+  "salesComparisonDate": [
+    "180", "210", "150", "230", "250", "280", "260", "310", "240", "300",
+    "350", "370", "330", "410", "420", "430", "470", "490", "500", "550",
+    "520", "580", "590", "600", "610", "620", "630", "650", "640", "660"
+  ],
+  "salesSpikeTime": "3:00 pm",
+  "totalSalesByProduct": {
+    "product": "The Collection Snowboard",
+    "tags": "Liquid · Hydrogen Vendor · snowboard",
+    "sales": "₹817.45"
+  },
+  "salesBreakdown": {
+    "grossSales": "₹12,340.00",
+    "discounts": "₹500.00",
+    "returns": "₹200.00",
+    "netSales": "₹11,640.00",
+    "shippingCharges": "₹300.00",
+    "returnFees": "₹100.00",
+    "taxes": "₹1,234.00",
+    "totalSales": "₹13,174.00"
+  },
+  "salesByChannel": {
+    "draftOrders": "₹3400.00"
+  },
+  "averageOrderValue": "₹246.80",
+  "conversionMetrics": {
+    "conversionRate": "4.3%",
+    "sessions": "750",
+    "addedToCart": "35%",
+    "reachedCheckout": "28%",
+    "completed": "25%"
+  },
+  "sessions": {
+    "overTime": "750",
+    "byDevice": "Desktop",
+    "byLocation": {
+      "location": "India · Punjab · Ludhiana",
+      "sessions": "233"
+    }
+  }
+}

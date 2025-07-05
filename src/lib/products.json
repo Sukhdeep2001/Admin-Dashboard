@@ -1,0 +1,186 @@
+[
+  {
+    "id": "prod-001",
+    "title": "Organic Cotton T-Shirt",
+    "description": "Eco-friendly t-shirt made with 100% organic cotton.",
+    "category": "Apparel",
+    "collection": "Summer Essentials",
+    "image": "/product.png",
+    "thumbnails": ["/images/products/tshirt1.jpg", "/images/products/tshirt2.jpg"],
+    "metaTitle": "Organic Cotton T-Shirt",
+    "metaDescription": "Buy eco-friendly cotton t-shirts online.",
+    "tags": ["eco", "cotton", "summer"],
+    "published": true,
+    "salesChannels": ["Online Store"],
+    "price": 799,
+    "metafields": {
+      "material": "100% cotton",
+      "fit": "Regular"
+    }
+  },
+  {
+    "id": "prod-002",
+    "title": "Denim Jacket",
+    "description": "Stylish blue denim jacket for all seasons.",
+    "category": "Outerwear",
+    "collection": "Winter Warmers",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Denim Jacket",
+    "metaDescription": "Premium blue denim jacket.",
+    "tags": ["denim", "jacket"],
+    "published": true,
+    "salesChannels": ["Instagram"],
+    "price": 2199,
+    "metafields": {
+      "material": "Denim",
+      "fit": "Slim"
+    }
+  },
+  {
+    "id": "prod-003",
+    "title": "Leather Wallet",
+    "description": "Handcrafted leather wallet with RFID protection.",
+    "category": "Accessories",
+    "collection": "Everyday Essentials",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Leather Wallet",
+    "metaDescription": "Durable handcrafted wallet.",
+    "tags": ["leather", "wallet"],
+    "published": true,
+    "salesChannels": ["Online Store"],
+    "price": 1299,
+    "metafields": {
+      "color": "Brown",
+      "material": "Leather"
+    }
+  },
+  {
+    "id": "prod-004",
+    "title": "Yoga Mat",
+    "description": "Non-slip yoga mat for home and studio use.",
+    "category": "Fitness",
+    "collection": "Health & Wellness",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Yoga Mat",
+    "metaDescription": "Buy premium yoga mats online.",
+    "tags": ["yoga", "fitness"],
+    "published": true,
+    "salesChannels": ["Online Store", "Facebook"],
+    "price": 999,
+    "metafields": {
+      "material": "Rubber",
+      "length": "6ft"
+    }
+  },
+  {
+    "id": "prod-005",
+    "title": "Stainless Steel Water Bottle",
+    "description": "Insulated bottle that keeps drinks cold or hot for 12 hours.",
+    "category": "Kitchen",
+    "collection": "Hydration",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Water Bottle",
+    "metaDescription": "Stainless steel insulated bottle.",
+    "tags": ["bottle", "steel"],
+    "published": true,
+    "salesChannels": ["Online Store"],
+    "price": 699,
+    "metafields": {
+      "capacity": "750ml"
+    }
+  },
+  {
+    "id": "prod-006",
+    "title": "Bluetooth Earbuds",
+    "description": "Wireless earbuds with noise cancellation.",
+    "category": "Electronics",
+    "collection": "Gadgets",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Bluetooth Earbuds",
+    "metaDescription": "Wireless earbuds with long battery.",
+    "tags": ["earbuds", "wireless"],
+    "published": true,
+    "salesChannels": ["Instagram", "Online Store"],
+    "price": 2499,
+    "metafields": {
+      "battery": "12 hours"
+    }
+  },
+  {
+    "id": "prod-007",
+    "title": "Laptop Stand",
+    "description": "Ergonomic laptop stand for desk setup.",
+    "category": "Office",
+    "collection": "Work Essentials",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Laptop Stand",
+    "metaDescription": "Ergonomic stand for better posture.",
+    "tags": ["stand", "laptop"],
+    "published": true,
+    "salesChannels": ["Online Store"],
+    "price": 1099,
+    "metafields": {
+      "height": "Adjustable"
+    }
+  },
+  {
+    "id": "prod-008",
+    "title": "Face Moisturizer",
+    "description": "Hydrating moisturizer for dry skin.",
+    "category": "Skincare",
+    "collection": "Winter Warmers",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Face Moisturizer",
+    "metaDescription": "Best moisturizer for all skin types.",
+    "tags": ["moisturizer", "skincare"],
+    "published": true,
+    "salesChannels": ["Facebook"],
+    "price": 499,
+    "metafields": {
+      "skinType": "Dry"
+    }
+  },
+  {
+    "id": "prod-009",
+    "title": "Ceramic Mug",
+    "description": "Microwave-safe coffee mug with minimalist design.",
+    "category": "Kitchen",
+    "collection": "Home Essentials",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Ceramic Mug",
+    "metaDescription": "Stylish ceramic coffee mug.",
+    "tags": ["mug", "coffee"],
+    "published": true,
+    "salesChannels": ["Online Store"],
+    "price": 349,
+    "metafields": {
+      "material": "Ceramic"
+    }
+  },
+  {
+    "id": "prod-010",
+    "title": "Notebook",
+    "description": "Hardcover notebook with 200 ruled pages.",
+    "category": "Stationery",
+    "collection": "Everyday Essentials",
+    "image": "/product.png",
+    "thumbnails": [],
+    "metaTitle": "Notebook",
+    "metaDescription": "Durable hardcover notebook.",
+    "tags": ["notebook", "stationery"],
+    "published": true,
+    "salesChannels": ["Online Store"],
+    "price": 249,
+    "metafields": {
+      "pages": 200
+    }
+  }
+]

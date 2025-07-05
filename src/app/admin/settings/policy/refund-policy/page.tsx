@@ -1,0 +1,5 @@
+import PolicyForm from '@/components/PolicyForm'
+
+export default function ReturnPolicyPage() {
+  return <PolicyForm title="Refund Policy" />
+}

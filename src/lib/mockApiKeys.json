@@ -1,0 +1,48 @@
+[
+    {
+      "id": "1",
+      "adminName": "Nova Boutique",
+      "email": "nova@store.com",
+      "maskedKey": "****abcd",
+      "permissions": ["orders", "products", "customers"],
+      "status": "active",
+      "createdAt": "2025-06-20"
+    },
+    {
+      "id": "2",
+      "adminName": "Hexa Tech",
+      "email": "hexa@devmail.com",
+      "maskedKey": "****e1d9",
+      "permissions": ["orders", "products", "discounts"],
+      "status": "active",
+      "createdAt": "2025-06-24"
+    },
+    {
+      "id": "3",
+      "adminName": "Urban Threads",
+      "email": "urban@clothes.com",
+      "maskedKey": "****8890",
+      "permissions": ["orders", "customers"],
+      "status": "revoked",
+      "createdAt": "2025-05-14"
+    },
+    {
+      "id": "4",
+      "adminName": "AlphaGear",
+      "email": "alpha@storefront.io",
+      "maskedKey": "****9921",
+      "permissions": ["products", "metafields", "customers"],
+      "status": "active",
+      "createdAt": "2025-06-30"
+    },
+    {
+      "id": "5",
+      "adminName": "VibeShop Pro",
+      "email": "vibe@marketplace.com",
+      "maskedKey": "****a77f",
+      "permissions": ["products", "orders", "checkout"],
+      "status": "active",
+      "createdAt": "2025-07-01"
+    }
+]
+  

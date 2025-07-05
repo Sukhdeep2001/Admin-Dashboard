@@ -1,0 +1,36 @@
+{
+    "storeOwnerEmail": "owner@yourstore.com",
+    "collaboratorAccess": {
+      "mode": "code_required",
+      "code": "5445"
+    },
+    "staff": [
+      {
+        "id": "user_1",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "role": "admin",
+        "loginMethod": "google",
+        "permissions": {
+          "viewOrders": true,
+          "editProducts": true,
+          "manageCustomers": true,
+          "accessSettings": false
+        }
+      },
+      {
+        "id": "user_2",
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "role": "admin",
+        "loginMethod": "apple",
+        "permissions": {
+          "viewOrders": true,
+          "editProducts": false,
+          "manageCustomers": false,
+          "accessSettings": false
+        }
+      }
+    ]
+}
+  

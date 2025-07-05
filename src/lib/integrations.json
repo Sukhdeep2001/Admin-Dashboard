@@ -1,0 +1,156 @@
+[
+    {
+      "category": "Analytics & Tracking",
+      "tools": [
+        {
+          "name": "Google Analytics",
+          "connected": false,
+          "description": "Track traffic and behavior",
+          "placeholder": "Enter Google Analytics Tracking ID"
+        },
+        {
+          "name": "Meta Pixel (Facebook Pixel)",
+          "connected": false,
+          "placeholder": "Enter Meta Pixel ID"
+        },
+        {
+          "name": "Microsoft Clarity",
+          "connected": false,
+          "placeholder": "Enter Clarity Project ID"
+        },
+        {
+          "name": "Pinterest Tag",
+          "connected": false
+        },
+        {
+          "name": "TikTok Pixel",
+          "connected": false
+        },
+        {
+          "name": "Hotjar",
+          "connected": false
+        },
+        {
+          "name": "Heap",
+          "connected": false
+        },
+        {
+          "name": "Segment",
+          "connected": false
+        },
+        {
+          "name": "Amplitude",
+          "connected": false
+        }
+      ]
+    },
+    {
+      "category": "Marketing & Email/SMS Automation",
+      "tools": [
+        { "name": "Klaviyo", "connected": false },
+        { "name": "Mailchimp", "connected": false },
+        { "name": "Omnisend", "connected": false },
+        { "name": "ActiveCampaign", "connected": false },
+        { "name": "Postscript (SMS)", "connected": false },
+        { "name": "Attentive (SMS)", "connected": false },
+        { "name": "Sendinblue", "connected": false },
+        { "name": "Drip", "connected": false }
+      ]
+    },
+    {
+      "category": "CRM & Customer Support",
+      "tools": [
+        { "name": "HubSpot", "connected": false },
+        { "name": "Zendesk", "connected": false },
+        { "name": "Gorgias", "connected": false },
+        { "name": "Freshdesk", "connected": false },
+        { "name": "Intercom", "connected": false },
+        { "name": "Tawk.to", "connected": false },
+        { "name": "Crisp", "connected": false }
+      ]
+    },
+    {
+      "category": "Subscriptions & Recurring Billing",
+      "tools": [
+        { "name": "Recharge", "connected": false },
+        { "name": "Bold Subscriptions", "connected": false },
+        { "name": "Skio", "connected": false },
+        { "name": "PayWhirl", "connected": false },
+        { "name": "Loop Subscriptions", "connected": false }
+      ]
+    },
+    {
+      "category": "Reviews, Loyalty, and UGC",
+      "tools": [
+        { "name": "Yotpo", "connected": false },
+        { "name": "Judge.me", "connected": false },
+        { "name": "Loox", "connected": false },
+        { "name": "Stamped.io", "connected": false },
+        { "name": "Okendo", "connected": false },
+        { "name": "Trustpilot", "connected": false },
+        { "name": "Smile.io (loyalty)", "connected": false }
+      ]
+    },
+    {
+      "category": "Payments & Finance",
+      "tools": [
+        { "name": "Stripe", "connected": false },
+        { "name": "PayPal", "connected": false },
+        { "name": "Razorpay", "connected": false },
+        { "name": "Cashfree", "connected": false },
+        { "name": "Shop Pay", "connected": false },
+        { "name": "Apple Pay", "connected": false },
+        { "name": "Google Pay", "connected": false },
+        { "name": "Afterpay / Klarna", "connected": false },
+        { "name": "Affirm", "connected": false }
+      ]
+    },
+    {
+      "category": "Shipping & Fulfillment",
+      "tools": [
+        { "name": "Shippo", "connected": false },
+        { "name": "Easyship", "connected": false },
+        { "name": "Shiprocket", "connected": false },
+        { "name": "Sendcloud", "connected": false },
+        { "name": "Delhivery", "connected": false },
+        { "name": "Shipstation", "connected": false }
+      ]
+    },
+    {
+      "category": "Search & Personalization",
+      "tools": [
+        { "name": "Algolia", "connected": false },
+        { "name": "Doofinder", "connected": false },
+        { "name": "Searchanise", "connected": false },
+        { "name": "Klevu", "connected": false },
+        { "name": "Clerk.io", "connected": false }
+      ]
+    },
+    {
+      "category": "Cart & Checkout Enhancements",
+      "tools": [
+        { "name": "One Click Upsell (Zipify)", "connected": false },
+        { "name": "Rebuy Engine", "connected": false },
+        { "name": "CartHook", "connected": false },
+        { "name": "Bold Checkout", "connected": false }
+      ]
+    },
+    {
+      "category": "Development & Tag Managers",
+      "tools": [
+        { "name": "Google Tag Manager", "connected": false },
+        { "name": "Custom Webhooks", "connected": false },
+        { "name": "API Credentials", "connected": false }
+      ]
+    },
+    {
+      "category": "AI Tools",
+      "tools": [
+        { "name": "Shopify Magic", "connected": false },
+        { "name": "ChatGPT Plugin for Support", "connected": false },
+        { "name": "LimeSpot", "connected": false },
+        { "name": "Vue.ai", "connected": false }
+      ]
+    }
+]
+  

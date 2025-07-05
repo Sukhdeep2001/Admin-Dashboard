@@ -1,0 +1,45 @@
+[
+  {
+    "id": "rule_1",
+    "type": "maxFlatRate",
+    "value": 50,
+    "description": "Max allowed flat rate across all profiles"
+  },
+  {
+    "id": "rule_2",
+    "type": "minFreeShippingThreshold",
+    "value": 100,
+    "description": "Free shipping must be offered above this cart value"
+  },
+  {
+    "id": "rule_3",
+    "type": "defaultHandlingTime",
+    "value": "2-3 days",
+    "description": "Default fulfillment handling time"
+  },
+  {
+    "id": "rule_4",
+    "type": "labelFormat",
+    "value": "A6",
+    "description": "Standard shipping label format"
+  },
+  {
+    "id": "rule_5",
+    "type": "defaultCarrier",
+    "value": "UPS",
+    "description": "Default fallback carrier"
+  },
+  {
+    "id": "rule_6",
+    "type": "maxWeightLimit",
+    "value": 30,
+    "description": "Max package weight allowed (kg)"
+  },
+  {
+    "id": "rule_7",
+    "type": "codAllowed",
+    "value": true,
+    "description": "Enable Cash on Delivery"
+  }
+]
+  

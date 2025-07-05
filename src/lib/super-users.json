@@ -1,0 +1,27 @@
+[
+    {
+      "id": "user_1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "plan": "pro",
+      "status": "active",
+      "features": ["orders", "products", "discounts", "analytics"]
+    },
+    {
+      "id": "user_2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "plan": "free",
+      "status": "trial",
+      "features": ["orders", "products"]
+    },
+    {
+      "id": "user_3",
+      "name": "Steve Lee",
+      "email": "steve@domain.com",
+      "plan": "enterprise",
+      "status": "active",
+      "features": ["orders", "products", "discounts", "analytics", "custom-fields", "api-access"]
+    }
+]
+  

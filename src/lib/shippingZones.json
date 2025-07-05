@@ -1,0 +1,28 @@
+[
+  {
+    "id": "zone_1",
+    "name": "North America",
+    "countries": ["US", "CA", "MX"]
+  },
+  {
+    "id": "zone_2",
+    "name": "Europe",
+    "countries": ["UK", "DE", "FR", "IT", "ES"]
+  },
+  {
+    "id": "zone_3",
+    "name": "Asia",
+    "countries": ["IN", "CN", "JP", "SG"]
+  },
+  {
+    "id": "zone_4",
+    "name": "Australia",
+    "countries": ["AU", "NZ"]
+  },
+  {
+    "id": "zone_5",
+    "name": "Middle East",
+    "countries": ["AE", "SA", "QA", "KW"]
+  }
+]
+  

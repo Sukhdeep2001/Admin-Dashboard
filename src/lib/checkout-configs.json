@@ -1,0 +1,23 @@
+[
+    {
+        "id": "checkout-001",
+        "title": "Testing-Nextjs-website-ecommerce configuration",
+        "status": "Live",
+        "addedAt": "Thursday at 5:58 am GMT-4",
+        "enabledSections": {
+            "contactMethod": true,
+            "tipping": true,
+            "loginRequired": false,
+            "marketing": {
+                "email": true,
+                "sms": false
+            },
+            "abandoned": {
+                "enabled": true,
+                "sendTo": "anyone",
+                "sendAfter": "10h"
+            }
+        }
+    }
+]
+  

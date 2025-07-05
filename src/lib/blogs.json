@@ -1,0 +1,27 @@
+[
+    {
+      "id": "blog-001",
+      "title": "Sustainable Living Tips",
+      "type": "Lifestyle",
+      "author": "Admin",
+      "published": true,
+      "createdAt": "2024-05-01",
+      "metaTitle": "Sustainable Living for Beginners",
+      "metaDescription": "Discover simple ways to live sustainably in today's world.",
+      "originalDescription": "This blog highlights small changes you can make to live more sustainably.",
+      "image": "/product.png"
+    },
+    {
+      "id": "blog-002",
+      "title": "Top 10 Fitness Gadgets",
+      "type": "Technology",
+      "author": "Editor",
+      "published": false,
+      "createdAt": "2024-06-10",
+      "metaTitle": "Best Fitness Gadgets of the Year",
+      "metaDescription": "Explore the top fitness devices for tracking your health and workouts.",
+      "originalDescription": "A curated list of gadgets that can transform your fitness game.",
+      "image": "/product.png"
+    }
+]
+  

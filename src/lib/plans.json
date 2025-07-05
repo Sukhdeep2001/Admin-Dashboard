@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1",
+    "planId": "basic",
+    "planTitle": "Basic Plan",
+    "billingCycle": "monthly",
+    "price": 29,
+    "user": {
+      "fullName": "Simran Singh",
+      "email": "simran@example.com",
+      "mobileNo": "+91-9876543210",
+      "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+      "businessName": "Simran Web Solutions",
+      "businessEmail": "contact@simranweb.com",
+      "businessLocation": "Ludhiana, Punjab, India",
+      "businessTaxId": "GSTIN234567890",
+      "staffCount": 5,
+      "createdAt": "2025-06-01"
+    }
+  },
+  {
+    "id": "2",
+    "planId": "basic",
+    "planTitle": "Basic Plan",
+    "billingCycle": "yearly",
+    "price": 290,
+    "user": {
+      "fullName": "Arjun Mehta",
+      "email": "arjun@example.com",
+      "mobileNo": "+91-9998887777",
+      "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+      "businessName": "Mehta Creatives",
+      "businessEmail": "hello@mehtacreatives.in",
+      "businessLocation": "Jaipur, Rajasthan, India",
+      "businessTaxId": "GSTIN678901234",
+      "staffCount": 3,
+      "createdAt": "2025-06-20"
+    }
+  },
+  {
+    "id": "3",
+    "planId": "standard",
+    "planTitle": "Standard Plan",
+    "billingCycle": "monthly",
+    "price": 109,
+    "user": {
+      "fullName": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "mobileNo": "+91-7776665555",
+      "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+      "businessName": "Sharma Digital",
+      "businessEmail": "info@sharmadigital.com",
+      "businessLocation": "Mumbai, Maharashtra, India",
+      "businessTaxId": "GSTIN123456789",
+      "staffCount": 10,
+      "createdAt": "2025-06-15"
+    }
+  },
+  {
+    "id": "4",
+    "planId": "standard",
+    "planTitle": "Standard Plan",
+    "billingCycle": "yearly",
+    "price": 1090,
+    "user": {
+      "fullName": "Preeti Kaur",
+      "email": "preeti@example.com",
+      "mobileNo": "+91-9112233445",
+      "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+      "businessName": "Kaur Tech House",
+      "businessEmail": "admin@kaurtech.in",
+      "businessLocation": "Delhi, India",
+      "businessTaxId": "GSTIN998877665",
+      "staffCount": 7,
+      "createdAt": "2025-06-10"
+    }
+  },
+  {
+    "id": "5",
+    "planId": "advanced",
+    "planTitle": "Advanced Plan",
+    "billingCycle": "monthly",
+    "price": 199,
+    "user": {
+      "fullName": "Rohan Khanna",
+      "email": "rohan@example.com",
+      "mobileNo": "+91-9887766554",
+      "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+      "businessName": "Khanna Media Group",
+      "businessEmail": "contact@khannamedia.in",
+      "businessLocation": "Pune, Maharashtra, India",
+      "businessTaxId": "GSTIN1122334455",
+      "staffCount": 15,
+      "createdAt": "2025-06-05"
+    }
+  },
+  {
+    "id": "6",
+    "planId": "advanced",
+    "planTitle": "Advanced Plan",
+    "billingCycle": "yearly",
+    "price": 1990,
+    "user": {
+      "fullName": "Isha Malhotra",
+      "email": "isha@example.com",
+      "mobileNo": "+91-9123456780",
+      "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+      "businessName": "Malhotra Designs",
+      "businessEmail": "hello@malhotradesigns.com",
+      "businessLocation": "Ahmedabad, Gujarat, India",
+      "businessTaxId": "GSTIN2233445566",
+      "staffCount": 12,
+      "createdAt": "2025-06-12"
+    }
+  },
+  {
+    "id": "7",
+    "planId": "enterprise",
+    "planTitle": "Enterprise Plan",
+    "billingCycle": "monthly",
+    "price": 899,
+    "user": {
+      "fullName": "Vikram Raj",
+      "email": "vikram@example.com",
+      "mobileNo": "+91-8877665544",
+      "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+      "businessName": "Raj Global Ventures",
+      "businessEmail": "vikram@rajventures.com",
+      "businessLocation": "Bangalore, Karnataka, India",
+      "businessTaxId": "GSTIN445566778",
+      "staffCount": 25,
+      "createdAt": "2025-06-18"
+    }
+  },
+  {
+    "id": "8",
+    "planId": "enterprise",
+    "planTitle": "Enterprise Plan",
+    "billingCycle": "yearly",
+    "price": 9999,
+    "user": {
+      "fullName": "Neha Verma",
+      "email": "neha@example.com",
+      "mobileNo": "+91-7008009001",
+      "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+      "businessName": "Verma Enterprises",
+      "businessEmail": "info@vermaent.com",
+      "businessLocation": "Chandigarh, India",
+      "businessTaxId": "GSTIN554433221",
+      "staffCount": 18,
+      "createdAt": "2025-06-22"
+    }
+  }
+]
