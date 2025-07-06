@@ -10,7 +10,7 @@ It uses **mock data** via constants or JSON files, and focuses purely on the **f
 
 ## 🚀 Live Demo
 
-👉 [View Dashboard on Vercel](https://admin-dashboard-bh0yexnb4-wwwdark1669-gmailcoms-projects.vercel.app/)
+👉 [View Dashboard on Vercel](https://admin-dashboard-eheuzllsp-wwwdark1669-gmailcoms-projects.vercel.app/)
 
 ---
 
