@@ -31,7 +31,7 @@ export default function CollectionsListPage() {
   }, [])
 
   return (
-    <div className="p-4 sm:p-6 text-black space-y-6">
+    <div className="sm:p-6 text-black space-y-6">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <h1 className="text-2xl font-bold">All Collections</h1>
         <Link href="/admin/products/collections/add">

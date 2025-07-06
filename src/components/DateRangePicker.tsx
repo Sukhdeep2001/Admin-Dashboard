@@ -20,7 +20,7 @@ export default function DateRangeFilter({ onDateChange }: { onDateChange: (range
         <PopoverContent className="w-auto p-0">
           <Calendar
             mode="range"
-            selected={range}
+            selected={{ from: range[0], to: range[1] }} // ✅ Convert tuple to DateRange
             onSelect={(range: any) => {
               if (range?.from && range?.to) {
                 setRange([range.from, range.to])

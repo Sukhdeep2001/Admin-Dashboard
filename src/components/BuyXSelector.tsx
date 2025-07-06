@@ -22,9 +22,9 @@ export default function BuyXSelector() {
       </Select>
 
       {condition === 'quantity' ? (
-        <SearchField label="Buy X – Select products/collections" onSearch={(val) => console.log(val)} />
+        <SearchField type="product_or_collection" label="Buy X – Select products/collections" onSearch={(val) => console.log(val)} />
       ) : (
-        <SearchField label="Buy X – Set minimum amount" onSearch={(val) => console.log(val)} />
+        <SearchField type="product_or_collection" label="Buy X – Set minimum amount" onSearch={(val) => console.log(val)} />
       )}
     </div>
   )

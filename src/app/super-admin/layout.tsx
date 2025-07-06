@@ -107,6 +107,11 @@ export default function SuperAdminLayout({ children }: { children: ReactNode }) 
                     Manage Clients
                   </Link>
                 </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/">
+                    Logout
+                  </Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>

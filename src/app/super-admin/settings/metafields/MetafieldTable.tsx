@@ -16,15 +16,21 @@ type Metafield = {
   createdAt: string
 }
 
-export default function MetafieldsPage() {
-  const [data, setData] = useState<Metafield[]>([])
+interface MetafieldsPageProps {
+  data?: Metafield[]
+}
+
+export default function MetafieldsPage({ data: propData }: MetafieldsPageProps) {
+  const [data, setData] = useState<Metafield[]>(propData || [])
 
   useEffect(() => {
-    fetch('/api/metafields')
-      .then(res => res.json())
-      .then(setData)
-      .catch(err => console.error('Failed to fetch metafields:', err))
-  }, [])
+    if (!propData) {
+      fetch('/api/metafields')
+        .then(res => res.json())
+        .then(setData)
+        .catch(err => console.error('Failed to fetch metafields:', err))
+    }
+  }, [propData])
 
   return (
     <div className="space-y-4">

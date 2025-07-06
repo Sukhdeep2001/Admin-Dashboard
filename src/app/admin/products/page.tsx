@@ -40,7 +40,7 @@ export default function ProductListPage() {
   }, [])
 
   return (
-    <div className="p-4 sm:p-6 text-black">
+    <div className="sm:p-6 text-black">
       <div className="flex justify-between items-center mb-6 flex-wrap gap-2">
         <h1 className="text-2xl font-bold">All Products</h1>
         <Button onClick={() => router.push('/admin/products/add')}>

@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   BarChart,
   Bar,
@@ -28,6 +28,15 @@ type ChartDatum = {
 }
 
 export default function SubscriptionTimeSeriesBarChart({ data, height = 420 }: Props) {
+  const [isMounted, setIsMounted] = useState(false)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
+  // Avoid rendering until mounted (fixes hydration mismatch)
+  if (!isMounted) return null
+
   // Unique sorted dates
   const allDatesSet = new Set<string>()
   data.forEach(plan => {
@@ -53,54 +62,56 @@ export default function SubscriptionTimeSeriesBarChart({ data, height = 420 }: P
   })
 
   return (
-    <div className="w-full">
-      <ResponsiveContainer width="100%" height={height}>
-        <BarChart
-          data={chartData}
-          margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis
-            dataKey="date"
-            tick={{ fontSize: 12 }}
-            tickFormatter={date =>
-              new Date(date).toLocaleDateString('en-US', {
-                month: 'short',
-                day: 'numeric',
-              })
-            }
-            angle={-35}
-            textAnchor="end"
-            height={50}
-            padding={{ left: 0, right: 5 }}
-          />
-          <YAxis
-            tick={{ fontSize: 12 }}
-            allowDecimals={false}
-            domain={[0, 'dataMax + 1']}
-            width={30}
-          />
-          <Tooltip
-            labelFormatter={label =>
-              `Date: ${new Date(label as string).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-              })}`
-            }
-          />
-          {data.map(plan => (
-            <Bar
-              key={plan.plan}
-              dataKey={plan.plan}
-              stackId="subscriptions"
-              fill={plan.color}
-              barSize={80}
-              radius={[4, 4, 0, 0]}
+    <div className="w-full overflow-x-auto">
+      <div className="min-w-[350px]">
+        <ResponsiveContainer width="100%" height={height}>
+          <BarChart
+            data={chartData}
+            margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis
+              dataKey="date"
+              tick={{ fontSize: 12 }}
+              tickFormatter={date =>
+                new Date(date).toLocaleDateString('en-US', {
+                  month: 'short',
+                  day: 'numeric',
+                })
+              }
+              angle={-35}
+              textAnchor="end"
+              height={50}
+              padding={{ left: 0, right: 5 }}
             />
-          ))}
-        </BarChart>
-      </ResponsiveContainer>
+            <YAxis
+              tick={{ fontSize: 12 }}
+              allowDecimals={false}
+              domain={[0, 'dataMax + 1']}
+              width={30}
+            />
+            <Tooltip
+              labelFormatter={label =>
+                `Date: ${new Date(label as string).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}`
+              }
+            />
+            {data.map(plan => (
+              <Bar
+                key={plan.plan}
+                dataKey={plan.plan}
+                stackId="subscriptions"
+                fill={plan.color}
+                barSize={80}
+                radius={[4, 4, 0, 0]}
+              />
+            ))}
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
     </div>
   )
 }

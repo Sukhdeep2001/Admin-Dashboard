@@ -17,30 +17,7 @@ import {
 import { Badge } from '@/components/ui/badge'
 import { PlanModal } from '@/components/PlanModal'
 import { Button } from '@/components/ui/button'
-
-type Plan = {
-  id: string
-  title: string
-  description: string
-  monthlyPrice: number
-  yearlyPrice: number
-  features: {
-    maxUsers: number | string
-    storageLimit: string
-    enableSSO: boolean
-    prioritySupport: boolean
-  }
-  limits: {
-    apiCallsPerMonth: number | string
-  }
-  trial: {
-    enabled: boolean
-    durationDays: number
-  }
-  visibility: boolean
-  archived: boolean
-  createdAt: string
-}
+import { Plan } from '@/lib/plan'
 
 export default function PlansCatalogPage() {
   const [plans, setPlans] = useState<Plan[]>([])
@@ -102,21 +79,24 @@ export default function PlansCatalogPage() {
             {plan.features.prioritySupport ? 'Yes' : 'No'}
           </span>
         </p>
+
+        {/* ✅ Key fix: ensure correct props to PlanModal */}
         <PlanModal
-          mode="edit"
-          initialData={plan}
-          onSave={(updated) =>
-            setPlans(prev =>
-              prev.map(p => (p.id === updated.id ? updated : p))
-            )
-          }
+          {...({
+            mode: 'edit',
+            initialData: plan,
+            onSave: (updatedPlan: Plan) =>
+              setPlans(prev =>
+                prev.map(p => (p.id === updatedPlan.id ? updatedPlan : p))
+              )
+          } as const)}
         />
       </CardContent>
     </Card>
   )
 
   return (
-    <section className="p-6 space-y-6">
+    <section className="space-y-6">
       <h1 className="text-3xl font-bold">Manage Subscription Plans</h1>
 
       <Tabs defaultValue="active" className="space-y-4">
@@ -152,10 +132,12 @@ export default function PlansCatalogPage() {
       </Tabs>
 
       <div className="text-right">
-        <PlanModal
-          mode="add"
-          onSave={(newPlan) => setPlans(prev => [...prev, newPlan])}
-        />
+      <PlanModal
+        {...({
+          mode: 'add',
+          onSave: (newPlan: Plan) => setPlans(prev => [...prev, newPlan])
+        } as const)}
+      />
       </div>
     </section>
   )

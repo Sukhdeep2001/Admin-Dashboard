@@ -1,5 +1,5 @@
 export function exportToCSV(data: any[], filename = 'data.csv') {
-  const csvRows = []
+  const csvRows: string[] = [] // ✅ FIXED typing
 
   const headers = Object.keys(data[0])
   csvRows.push(headers.join(','))

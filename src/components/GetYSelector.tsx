@@ -8,6 +8,7 @@ export default function GetYSelector() {
     <div className="space-y-4">
       <Label>Customer gets:</Label>
       <SearchField
+        type="product_or_collection"
         label="Get Y – Select products/collections"
         onSearch={(val) => console.log(val)}
       />

@@ -79,7 +79,12 @@ export default function PolicyLandingPage() {
               <Label className="font-semibold">Charge restocking fee</Label>
               <div className="flex items-center gap-4">
                 <Switch defaultChecked />
-                <Input className="w-24" defaultValue="10" type="number" suffix="%" />
+                <Input
+                  className="w-24"
+                  defaultValue="10"
+                  type="number"
+                  {...{ suffix: "%" } as any}
+                />
               </div>
               <p className="text-xs text-gray-500">
                 Does not apply to returns using Point of Sale

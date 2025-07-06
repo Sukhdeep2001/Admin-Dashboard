@@ -170,7 +170,7 @@ export default function Topbar() {
               <Link href="/admin/profile" className="w-full">Profile Settings</Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link href="/admin/help" className="w-full">Support</Link>
+              <Link href="/admin/settings/support" className="w-full">Support</Link>
             </DropdownMenuItem>
             <DropdownMenuItem
               onClick={() => {

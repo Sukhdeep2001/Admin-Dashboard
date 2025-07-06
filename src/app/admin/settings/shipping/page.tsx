@@ -1,10 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import shippingData from '@/lib/shipping-settings.json'
+import { useState } from 'react'
+import rawShippingData from '@/lib/shipping-settings.json'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
 import { Switch } from '@/components/ui/switch'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -12,6 +11,49 @@ import { Textarea } from '@/components/ui/textarea'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import countryList from 'world-countries'
 import { Trash2 } from 'lucide-react'
+
+// 🔧 Type fix: define the full structure to eliminate TS errors
+interface ShippingMethod {
+  type: string
+  estimated_delivery: string
+  rate: number | string
+}
+
+interface ShippingZone {
+  id: number
+  name: string
+  country: string
+  methods: ShippingMethod[]
+  free_shipping_over: number | string
+}
+
+interface ShippingData {
+  shipping_zones: ShippingZone[]
+  local_delivery: {
+    enabled: boolean
+    pincode_range: string
+    delivery_window: string
+    min_order_value: number
+  }
+  local_pickup: {
+    enabled: boolean
+    location_name: string
+    address: string
+    instructions: string
+  }
+  general_settings: {
+    label_format: string
+    default_package_dimensions: {
+      length: number
+      width: number
+      height: number
+    }
+    delivery_estimate_text: string
+  }
+}
+
+// ⬇️ Fix: cast the raw data
+const shippingData = rawShippingData as ShippingData
 
 export default function ShippingDeliveryPage() {
   const [data, setData] = useState(shippingData)
@@ -33,8 +75,22 @@ export default function ShippingDeliveryPage() {
 
     setData(prev => ({
       ...prev,
-      shipping_zones: [...prev.shipping_zones, { id: Date.now(), ...newZone }]
+      shipping_zones: [
+        ...prev.shipping_zones,
+        {
+          ...( {
+            id: Date.now(),
+            ...newZone,
+            methods: newZone.methods.map(m => ({
+              ...m,
+              rate: Number(m.rate),
+            })),
+            free_shipping_over: Number(newZone.free_shipping_over),
+          } as any )
+        }
+      ]
     }))
+
     setNewZone({
       name: '',
       country: '',
@@ -44,6 +100,7 @@ export default function ShippingDeliveryPage() {
       ],
       free_shipping_over: ''
     })
+
     setShowZoneForm(false)
   }
 

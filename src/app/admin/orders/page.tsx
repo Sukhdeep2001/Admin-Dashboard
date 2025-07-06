@@ -168,7 +168,7 @@ export default function OrdersPage() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button onClick={() => fileInputRef.current?.click()} variant="success">
+          <Button onClick={() => fileInputRef.current?.click()} variant={"success" as any}>
             Import
           </Button>
           <Input

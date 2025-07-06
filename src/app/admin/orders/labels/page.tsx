@@ -45,7 +45,7 @@ export default function LabelOrdersPage() {
   }
 
   return (
-    <div className="text-black space-y-6 p-4 sm:p-6">
+    <div className="text-black space-y-6 sm:p-6">
       {/* Header */}
       <div className="flex flex-wrap justify-between items-center gap-4">
         <h1 className="text-2xl font-semibold">Label Orders</h1>

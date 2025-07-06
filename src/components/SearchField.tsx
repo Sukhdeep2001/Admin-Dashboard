@@ -14,9 +14,11 @@ type Item = {
 type SearchFieldProps = {
   type: 'product_or_collection' | 'customer' | 'segment'
   onChange?: (selected: Item[]) => void
+  onSearch?: (val: string) => void
+  label?: string
 }
 
-export default function SearchField({ type, onChange }: SearchFieldProps) {
+export default function SearchField({ type, onChange, onSearch, label }: SearchFieldProps) {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<Item[]>([])
   const [selectedItems, setSelectedItems] = useState<Item[]>([])
@@ -29,8 +31,11 @@ export default function SearchField({ type, onChange }: SearchFieldProps) {
 
     fetch(`/api/search?q=${query}&type=${type}`)
       .then((res) => res.json())
-      .then((data) => setResults(data || []))
-  }, [query, type])
+      .then((data) => {
+        setResults(data || [])
+        onSearch?.(query)
+      })
+  }, [query, type, onSearch])
 
   const addItem = (item: Item) => {
     if (!selectedItems.find((i) => i.title === item.title)) {
@@ -56,6 +61,8 @@ export default function SearchField({ type, onChange }: SearchFieldProps) {
 
   return (
     <div className="space-y-3">
+      {label && <p className="text-sm font-medium">{label}</p>}
+
       <Input
         placeholder={placeholderText}
         value={query}

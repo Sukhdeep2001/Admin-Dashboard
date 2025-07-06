@@ -21,7 +21,7 @@ export default function MobileSidebar() {
     { name: 'Customers', href: '/super-admin/customers' },
     { name: 'Discounts', href: '/super-admin/discounts' },
     { name: 'Plans', href: '/super-admin/plans' },
-    { name: 'API Keys', href: '/super-admin/api-keys' },
+    { name: 'Integrations', href: '/super-admin/integrations' },
     { name: 'Settings', href: '/super-admin/settings' },
   ]
 
